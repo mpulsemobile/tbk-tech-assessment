@@ -1,24 +1,26 @@
-# README
+### Thank you for taking the time to go through our interview process. The team has been impressed with you and we are looking forward to the next stage of our interview process.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# INSTRUCTIONS
 
-Things you may want to cover:
+### For your next challenge, we will be doing a pair programming challenge together. Currently we have a few broken specs and ask that you have these passing before we pair. Please also refactor this code to your liking. We are looking forward to the next stage of our interview process! 
 
-* Ruby version
+## Fork Repo
 
-* System dependencies
+*  Please fork this repo `https://github.com/mpulsemobile/tbk-tech-assessment`
+* `cd tbk-tech-assessment`
+* `bundle install`
 
-* Configuration
 
-* Database creation
+## Setting Up DB
 
-* Database initialization
+* `rails db:create`
+* `rails db:migrate`
 
-* How to run the test suite
+## Running the Specs
+* `bundle exec rspec` The specs are the source of truth. 
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## Goal
+* `Ensure all specs are passing`
+* `Refactor to your liking`
+* `Learn the code and feel comfortable with it`
